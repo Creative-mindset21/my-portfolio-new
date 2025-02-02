@@ -1,1 +1,38 @@
 @import "tailwindcss";
+
+/* !=====CUSTOM FONTS===== */
+@font-face {
+  font-family: "Gilroy-normal";
+  src: url("./assets/gilroy/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url("./assets/gilroy/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Thin";
+  src: url("./assets/gilroy/Gilroy-Thin.ttf");
+}
+
+/* !=====REUSEABLE STYLES===== */
+@theme {
+  --color-grey-light: #242424;
+  --color-stack-color: #18171c;
+}
+
+/* !=====GENERAL STYLING===== */
+@layer base {
+  body {
+    font-family: "Gilroy-normal", sans-serif;
+    background: #161616;
+    color: #fff;
+  }
+}
+
+@layer components {
+  .container {
+    @apply grid grid-cols-[25rem_auto] mt-5 px-10 w-full;
+  }
+}
