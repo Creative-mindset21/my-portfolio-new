@@ -18,21 +18,47 @@
 
 /* !=====REUSEABLE STYLES===== */
 @theme {
-  --color-grey-light: #242424;
+  --color-gray-light: #242424;
   --color-stack-color: #18171c;
+  --color-grey-text: #676768;
+  --color-grey-600: #161616;
+  --color-purple-500: #2e1d2a;
 }
 
 /* !=====GENERAL STYLING===== */
 @layer base {
   body {
     font-family: "Gilroy-normal", sans-serif;
-    background: #161616;
+    background: #040404;
     color: #fff;
+    width: 100%;
+    user-select: none;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
   }
 }
 
 @layer components {
-  .container {
-    @apply grid grid-cols-[25rem_auto] mt-5 px-10 w-full;
+  .wrapper {
+    @apply grid grid-cols-[4rem_auto] md:grid-cols-[20rem_auto] gap-6 md:mt-10 md:px-10 lg:px-20 w-full;
+  }
+
+  .navContainer {
+    @apply flex flex-col gap-20 md:gap-10 text-center bg-grey-600 items-center md:rounded-lg h-[100vh] md:h-[70vh] border-2 border-purple-500;
+  }
+
+  .navImg {
+    @apply bg-gray-light w-full mx-auto flex justify-center p-1 md:p-6 rounded-2xl shadow-md shadow-[rgba(197,195,195,0.2)] mt-5 md:mt-10 mb-5;
+  }
+
+  .navlinks {
+    @apply flex items-center gap-3 transition-all;
+  }
+
+  .active {
+    @apply bg-white text-grey-600 font-bold p-1 rounded-md;
   }
 }

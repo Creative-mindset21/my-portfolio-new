@@ -6,9 +6,9 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="container">
-      <Nav />
+    <div className="wrapper">
       <BrowserRouter>
+        <Nav />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="projects" element={<Project />} />
