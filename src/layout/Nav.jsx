@@ -12,7 +12,7 @@ const Nav = () => {
           <img
             src={myImg}
             alt="My image"
-            className="w-10 h-10 md:w-35 md:h-35 object-top rounded-full"
+            className="w-8 h-8 md:w-35 md:h-35 object-top rounded-full"
           />
         </div>
 
@@ -22,31 +22,31 @@ const Nav = () => {
         </p>
       </div>
 
-      <ul className="flex flex-col gap-7 mb-10 md:self-start md:pl-15 md:w-48">
+      <ul className="flex md:flex-col items-center gap-7 md:mb-10 md:items-start md:self-start md:pl-15 md:w-48">
         <li>
           <NavLink to="/" className="navlinks">
-            <FaUser size={20} />
+            <FaUser size={15} />
             <span className="hidden md:block">About Me</span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="resume" className="navlinks">
-            <FaFileDownload size={20} />
+            <FaFileDownload size={15} />
             <span className="hidden md:block">Resume</span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="projects" className="navlinks">
-            <FaFolderClosed size={20} />
+            <FaFolderClosed size={15} />
             <span className="hidden md:block">Projects</span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="contact" className="navlinks">
-            <TbMessageCircleHeart size={20} />
+            <TbMessageCircleHeart size={15} />
             <span className="hidden md:block">Contact</span>
           </NavLink>
         </li>
