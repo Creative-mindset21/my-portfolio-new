@@ -1,11 +1,12 @@
 import myImg from "../assets/my-img.jpg";
+import Stack from "./Stack";
 
 const About = () => {
   return (
     <section className="aboutContainer">
-      <div className="flex flex-col md:flex-row justify-between md:items-center">
+      <div className="flex flex-col md:flex-row justify-between md:items-center mb-5">
         <div className="md:max-w-[50%] max-w-[90%]">
-          <h1 className="text-4xl font-bold mb-2 text-gradient">About me</h1>
+          <h1>About me</h1>
 
           <p className="mb-5 md:max-w-[90%] text-white-500 text-lg">
             Frontend developer based in Bedford, United Kingdom, dedicated to
@@ -17,10 +18,6 @@ const About = () => {
           </p>
 
           <p className="md:max-w-[90%] text-white-500 text-xl">
-            I focus on building{" "}
-            <span className="text-grey-text">
-              dynamic user interfaces and developing software solutions.
-            </span>{" "}
             I thrive on collaboration and continuously seek to improve my skills
             and stay updated with the latest technologies.
           </p>
@@ -34,6 +31,8 @@ const About = () => {
           />
         </div>
       </div>
+
+      <Stack />
     </section>
   );
 };

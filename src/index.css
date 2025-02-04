@@ -36,6 +36,10 @@
     user-select: none;
   }
 
+  h1 {
+    @apply text-4xl font-bold mb-2 text-gradient;
+  }
+
   img {
     max-width: 100%;
     height: auto;
@@ -53,7 +57,7 @@
   }
 
   .aboutContainer {
-    @apply bg-grey-600 py-7 pl-8 md:p-15 md:px-36 md:rounded-lg;
+    @apply bg-grey-600 py-7 pl-6 md:p-15 md:px-36 md:rounded-lg;
   }
 
   .navImg {
@@ -64,8 +68,16 @@
     @apply flex items-center gap-3 transition-all;
   }
 
+  .card {
+    @apply bg-stack-color flex flex-col gap-5 p-4 border-2 border-[#2c2d32] rounded-lg;
+
+    & div {
+      @apply flex items-center gap-3;
+    }
+  }
+
   .active {
-    @apply bg-white text-grey-600 font-bold p-1 rounded-md;
+    @apply bg-white text-grey-600 font-bold p-1.5 rounded-md;
   }
 }
 
