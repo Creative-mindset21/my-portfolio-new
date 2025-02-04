@@ -57,7 +57,7 @@
   }
 
   .aboutContainer {
-    @apply bg-grey-600 py-7 pl-6 md:p-15 md:px-36 md:rounded-lg;
+    @apply bg-grey-600 py-7 pl-6 md:p-15 md:px-36 md:rounded-lg flex flex-col gap-6;
   }
 
   .navImg {

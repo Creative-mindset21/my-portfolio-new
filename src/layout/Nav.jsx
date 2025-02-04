@@ -24,28 +24,28 @@ const Nav = () => {
 
       <ul className="flex md:flex-col items-center gap-7 md:mb-10 md:items-start md:self-start md:pl-15 md:w-48">
         <li>
-          <NavLink to="/" className="navlinks">
+          <NavLink to="/" className="navlinks" title="About Me">
             <FaUser size={15} />
             <span className="hidden md:block">About Me</span>
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="resume" className="navlinks">
+          <NavLink to="resume" className="navlinks" title="Resume">
             <FaFileDownload size={15} />
             <span className="hidden md:block">Resume</span>
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="projects" className="navlinks">
+          <NavLink to="projects" className="navlinks" title="Projects">
             <FaFolderClosed size={15} />
             <span className="hidden md:block">Projects</span>
           </NavLink>
         </li>
 
         <li>
-          <NavLink to="contact" className="navlinks">
+          <NavLink to="contact" className="navlinks" title="Contact">
             <TbMessageCircleHeart size={15} />
             <span className="hidden md:block">Contact</span>
           </NavLink>

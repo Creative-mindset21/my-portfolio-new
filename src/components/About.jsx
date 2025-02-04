@@ -1,10 +1,11 @@
 import myImg from "../assets/my-img.jpg";
+import Experience from "./Experience";
 import Stack from "./Stack";
 
 const About = () => {
   return (
     <section className="aboutContainer">
-      <div className="flex flex-col md:flex-row justify-between md:items-center mb-5">
+      <div className="flex flex-col md:flex-row justify-between md:items-center">
         <div className="md:max-w-[50%] max-w-[90%]">
           <h1>About me</h1>
 
@@ -33,6 +34,7 @@ const About = () => {
       </div>
 
       <Stack />
+      <Experience />
     </section>
   );
 };
