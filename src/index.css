@@ -34,6 +34,7 @@
     color: #fff;
     width: 100%;
     user-select: none;
+    overflow-x: hidden;
   }
 
   h1 {
@@ -52,6 +53,11 @@
     @apply text-grey-text font-[Gilroy-bold];
   }
 
+  label {
+    position: absolute;
+    left: -99999%;
+  }
+
   img {
     max-width: 100%;
     height: auto;
@@ -67,7 +73,7 @@
 
   /* ! ===== NAVIGATION STYLING =====*/
   .navContainer {
-    @apply flex md:flex-col px-5 py-7 md:p-0 md:gap-10 text-center bg-grey-600 items-center md:rounded-lg h-[7vh] md:h-[70vh] border-b border-purple-500 justify-between sm:justify-start;
+    @apply flex md:flex-col px-5 py-7 md:p-0 md:gap-10 text-center bg-grey-600 items-center md:rounded-lg h-[7vh]  md:h-[40rem] border-b border-purple-500 justify-between sm:justify-start;
   }
 
   .navImg {
@@ -79,7 +85,7 @@
   }
 
   .aboutContainer {
-    @apply bg-grey-600 py-7 pl-6 md:p-15 md:px-36 md:rounded-lg flex flex-col gap-6;
+    @apply bg-grey-600 py-7 pl-6 md:p-15 md:px-8 2xl:px-36 md:rounded-lg flex flex-col gap-6;
   }
 
   .card {
@@ -95,7 +101,7 @@
   }
 
   .experience {
-    @apply bg-stack-color flex flex-col md:flex-row p-4 border-2 border-[#2c2d32] rounded-lg basis-[70%] gap-6;
+    @apply bg-stack-color flex flex-col md:flex-row p-4 border-2 border-[#2c2d32] rounded-lg gap-4;
   }
 
   .experienceStack {
@@ -105,8 +111,22 @@
       @apply text-lg;
     }
   }
+
+  /* ! ===== CONTACT STYLING =====*/
+  .contactInput {
+    @apply border p-3 xl:w-[75%] rounded-lg;
+  }
+
+  .contactButton {
+    @apply bg-gray-light px-3 py-2 rounded-lg shadow shadow-[rgba(197,195,195,0.2)] flex gap-3 items-center text-lg cursor-pointer duration-300 hover:shadow-[rgba(197,195,195,0.5)];
+
+    & span {
+      @apply text-gradient font-[Gilroy-bold];
+    }
+  }
 }
 
+/* ! ===== TEXT GRADIENT STYLING =====*/
 @utility text-gradient {
   @apply text-transparent bg-gradient-to-r from-[#4169E1] via-[#F08080] to-[#DB7093] bg-clip-text;
 }
