@@ -40,6 +40,18 @@
     @apply text-4xl font-bold mb-2 text-gradient;
   }
 
+  h2 {
+    @apply font-bold tracking-widest;
+  }
+
+  h3 {
+    @apply font-[Gilroy-bold];
+  }
+
+  small {
+    @apply text-grey-text font-[Gilroy-bold];
+  }
+
   img {
     max-width: 100%;
     height: auto;
@@ -80,6 +92,10 @@
 
   .active {
     @apply bg-white text-grey-600 font-bold p-1.5 rounded-md;
+  }
+
+  .experience {
+    @apply bg-stack-color flex flex-col md:flex-row p-4 border-2 border-[#2c2d32] rounded-lg basis-[70%] gap-6;
   }
 
   .experienceStack {

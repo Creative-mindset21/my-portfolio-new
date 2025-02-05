@@ -7,18 +7,14 @@ const Experience = () => {
       <h1>Experience</h1>
 
       <ul className="flex flex-col md:flex-row justify-between mt-4 gap-6 pr-6">
-        <li className="bg-stack-color flex flex-col md:flex-row p-4 border-2 border-[#2c2d32] rounded-lg basis-[80%] gap-6">
+        <li className="experience">
           <div className="flex flex-col gap-5 basis-[50%]">
-            <h2 className="font-bold tracking-widest">Work Experience</h2>
+            <h2>Work Experience</h2>
 
             <div className="flex flex-col gap-2">
-              <h3 className="font-[Gilroy-bold]">
-                Easy-Learn Frontend Developer
-              </h3>
+              <h3>Easy-Learn Frontend Developer</h3>
 
-              <small className="text-grey-text font-[Gilroy-bold]">
-                JAN 2025 - present
-              </small>
+              <small>JAN 2025 - present</small>
 
               <span className="max-w-[25rem]">
                 Developed and maintained an online tuition website using modern
@@ -64,7 +60,22 @@ const Experience = () => {
             </div>
           </div>
         </li>
-        <li>Right</li>
+
+        <li className="basis-[30%] experience">
+          <div>
+            <h2 className="text-xl pb-4">Education</h2>
+
+            <div className="flex flex-col gap-2">
+              <h3>Bedford College, Bedford</h3>
+              <small> September 2023 - present</small>
+              <p className="leading-relaxed">
+                I am currently pursuing my Level 3 BTEC in Computing, focusing
+                on Software Design and Development, Computer Games Development,
+                Website Development, IT System Security, and many more.
+              </p>
+            </div>
+          </div>
+        </li>
       </ul>
     </section>
   );
