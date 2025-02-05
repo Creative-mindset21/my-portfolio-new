@@ -13,7 +13,7 @@ const Contact = () => {
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            className="rounded-lg md:h-120 h-80 w-full"
+            className="rounded-lg md:h-120 h-80 w-full mb-10"
             aria-hidden="false"
             tabIndex="0"
           ></iframe>
