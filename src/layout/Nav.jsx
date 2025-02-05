@@ -8,13 +8,13 @@ const Nav = () => {
   return (
     <nav className="navContainer">
       <div>
-        <div className="navImg">
+        <figure className="navImg">
           <img
             src={myImg}
             alt="My image"
             className="w-8 h-8 md:w-35 md:h-35 object-top rounded-full"
           />
-        </div>
+        </figure>
 
         <p className="hidden md:block text-2xl tracking-wide">Isaac Awotoye</p>
         <p className="hidden md:block text-xl tracking-wider text-grey-text font-semibold">

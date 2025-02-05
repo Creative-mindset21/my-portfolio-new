@@ -5,10 +5,10 @@ import { SiTypescript } from "react-icons/si";
 
 const Stack = () => {
   return (
-    <section>
-      <h1 className="mb-6">My Stack</h1>
+    <section className="mb-5">
+      <h1 className="mb-4">My Stack</h1>
 
-      <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pr-4">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pr-4">
         <li className="card">
           <div>
             <div className="bg-grey-600 p-2">

@@ -24,13 +24,13 @@ const About = () => {
           </p>
         </div>
 
-        <div className="navImg w-60 h-60 md:w-90 md:h-90 p-4 -order-1 md:order-1 mx-0 mt-0">
+        <figure className="navImg w-60 h-60 md:w-90 md:h-90 p-4 -order-1 md:order-1 mx-0 mt-0">
           <img
             src={myImg}
             alt="my image"
             className="w-full h-[auto] object-top rounded-3xl"
           />
-        </div>
+        </figure>
       </div>
 
       <Stack />

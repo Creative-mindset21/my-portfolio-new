@@ -48,16 +48,14 @@
 }
 
 @layer components {
+  /* ! ===== CONTAINER WRAPPER STYLING =====*/
   .wrapper {
-    @apply grid grid-cols-1 md:grid-cols-[20rem_auto]  md:gap-6 md:mt-10 md:px-10 lg:px-20 w-full;
+    @apply grid grid-cols-1 md:grid-cols-[20rem_auto] md:gap-6 md:mt-10 md:pl-10 md:pr-5 w-full;
   }
 
+  /* ! ===== NAVIGATION STYLING =====*/
   .navContainer {
     @apply flex md:flex-col px-5 py-7 md:p-0 md:gap-10 text-center bg-grey-600 items-center md:rounded-lg h-[7vh] md:h-[70vh] border-b border-purple-500 justify-between sm:justify-start;
-  }
-
-  .aboutContainer {
-    @apply bg-grey-600 py-7 pl-6 md:p-15 md:px-36 md:rounded-lg flex flex-col gap-6;
   }
 
   .navImg {
@@ -66,6 +64,10 @@
 
   .navlinks {
     @apply flex items-center gap-3 transition-all;
+  }
+
+  .aboutContainer {
+    @apply bg-grey-600 py-7 pl-6 md:p-15 md:px-36 md:rounded-lg flex flex-col gap-6;
   }
 
   .card {
@@ -78,6 +80,14 @@
 
   .active {
     @apply bg-white text-grey-600 font-bold p-1.5 rounded-md;
+  }
+
+  .experienceStack {
+    @apply flex gap-3 items-center bg-gray-light justify-start w-32 p-1 border-2 border-[#2c2d32] rounded-md cursor-pointer;
+
+    & span {
+      @apply text-lg;
+    }
   }
 }
 
