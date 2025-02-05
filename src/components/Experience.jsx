@@ -61,7 +61,7 @@ const Experience = () => {
           </div>
         </li>
 
-        <li className="basis-[30%] experience">
+        <li className="basis-[40%] experience">
           <div>
             <h2 className="text-xl pb-4">Education</h2>
 
