@@ -18,7 +18,7 @@ const Contact = () => {
             tabIndex="0"
           ></iframe>
 
-          <div className="w-full">
+          <div className="w-full mb-4">
             <h2 className="text-lg mb-4">Contact Form</h2>
 
             <form onSubmit={(e) => e.preventDefault()}>
