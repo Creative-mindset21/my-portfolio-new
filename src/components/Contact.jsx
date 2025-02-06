@@ -1,6 +1,42 @@
+import { useState } from "react";
 import { IoIosSend } from "react-icons/io";
 
 const Contact = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    setResult("Sending...");
+    const formData = new FormData(e.target);
+
+    formData.append("access_key", "3133bb28-410d-4c2d-8a54-11cc42551127");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      e.target.reset();
+
+      // ! REMOVE THE SUCCESS DISPLAY AFTER THREE SECONDS
+      setTimeout(() => {
+        setResult("");
+      }, 3000);
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+
+    // ! REMOVE THE DISPLAY AFTER THREE SECONDS
+    setTimeout(() => {
+      setResult("");
+    }, 3000);
+  };
+
   return (
     <section className="bg-grey-600 md:rounded-lg">
       <div className="py-4 px-5">
@@ -21,10 +57,7 @@ const Contact = () => {
           <div className="w-full mb-4">
             <h2 className="text-lg mb-4">Contact Form</h2>
 
-            <form
-              action="https://formsubmit.co/tobiawotoye03@gmail.com"
-              method="POST"
-            >
+            <form onSubmit={onSubmit}>
               <div className="flex flex-col gap-7 mb-5">
                 <label htmlFor="fname"></label>
                 <input
@@ -59,6 +92,18 @@ const Contact = () => {
                 <IoIosSend size={20} />
                 <span>Send Message</span>
               </button>
+
+              <p
+                className={`mt-3 text-xl ${
+                  result === "Sending..."
+                    ? "text-blue-500"
+                    : result === "Form Submitted Successfully"
+                    ? "text-green-500"
+                    : "text-red-400"
+                }`}
+              >
+                {result}
+              </p>
             </form>
           </div>
         </div>
