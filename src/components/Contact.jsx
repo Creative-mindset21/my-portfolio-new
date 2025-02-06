@@ -21,7 +21,10 @@ const Contact = () => {
           <div className="w-full mb-4">
             <h2 className="text-lg mb-4">Contact Form</h2>
 
-            <form onSubmit={(e) => e.preventDefault()}>
+            <form
+              action="https://formsubmit.co/tobiawotoye03@gmail.com"
+              method="POST"
+            >
               <div className="flex flex-col gap-7 mb-5">
                 <label htmlFor="fname"></label>
                 <input
@@ -30,6 +33,7 @@ const Contact = () => {
                   placeholder="Full name"
                   className="contactInput"
                   required
+                  name="Full name"
                 />
 
                 <label htmlFor="email"></label>
@@ -39,6 +43,7 @@ const Contact = () => {
                   placeholder="Email address"
                   className="contactInput"
                   required
+                  name="email"
                 />
 
                 <label htmlFor="message"></label>
