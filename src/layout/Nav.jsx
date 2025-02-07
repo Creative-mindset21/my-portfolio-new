@@ -3,6 +3,7 @@ import myImg from "../assets/my-img.jpg";
 import { NavLink } from "react-router";
 import { FaFolderClosed } from "react-icons/fa6";
 import { TbMessageCircleHeart } from "react-icons/tb";
+import { IoMdMail } from "react-icons/io";
 
 const Nav = () => {
   return (
@@ -21,6 +22,8 @@ const Nav = () => {
           Frontend Developer
         </p>
       </div>
+
+      <div className="hidden lg:block border-b-2 border-gray-light h-1 w-full"></div>
 
       <ul className="flex lg:flex-col items-center gap-7 lg:mb-10 lg:items-start lg:self-start lg:pl-15 lg:w-48">
         <li>
@@ -49,6 +52,23 @@ const Nav = () => {
             <TbMessageCircleHeart size={15} />
             <span className="hidden lg:block">Contact</span>
           </NavLink>
+        </li>
+      </ul>
+
+      <div className="hidden lg:block border-b-2 border-gray-light h-1 w-full -mt-10"></div>
+
+      <ul className="hidden lg:block lg:items-start lg:text-left gap-4">
+        <li className="flex gap-3 items-center">
+          <a
+            href="mailto:tobiawotoye03@gmail.com"
+            className="bg-gray-light p-2 rounded-lg shadow shadow-[rgba(197,195,195,0.3)]"
+          >
+            <IoMdMail size={25} />
+          </a>
+          <div>
+            <small className="text-sm">Email</small>
+            <p className="text-md">tobiawotoye03@gmail.com</p>
+          </div>
         </li>
       </ul>
     </nav>

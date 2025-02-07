@@ -78,11 +78,11 @@
 
   /* ! ===== NAVIGATION STYLING =====*/
   .navContainer {
-    @apply flex lg:flex-col px-5 py-7  lg:p-0 lg:gap-10 text-center bg-grey-600 items-center lg:rounded-lg h-[7vh]  lg:h-[40rem] border-b border-purple-500 justify-between;
+    @apply flex lg:flex-col px-5 py-7 lg:p-0 lg:gap-10 text-center bg-grey-600 items-center lg:rounded-lg h-[7vh] justify-between lg:justify-start lg:h-[50rem] border-gray-light border-b-2 lg:border-0 fixed top-0 left-0 right-0 lg:relative shadow shadow-[rgba(197,195,195,0.4)];
   }
 
   .navImg {
-    @apply bg-gray-light w-full mx-auto flex justify-center p-1 lg:p-6 rounded-2xl shadow shadow-[rgba(197,195,195,0.2)] mt-5 lg:mt-10 mb-5;
+    @apply bg-gray-light w-full mx-auto flex justify-center p-1 lg:p-6 rounded-2xl shadow shadow-[rgba(197,195,195,0.2)] mt-5 lg:mt-5 mb-5;
   }
 
   .navlinks {
@@ -90,11 +90,11 @@
   }
 
   .aboutContainer {
-    @apply bg-grey-600 py-7 pl-6 xl:p-15 xl:px-8 2xl:px-36 xl:rounded-lg flex flex-col gap-6;
+    @apply bg-grey-600 pt-25 pb-7 pl-6 xl:p-15 xl:px-8 2xl:px-36 xl:rounded-lg flex flex-col gap-6;
   }
 
   .card {
-    @apply bg-stack-color flex flex-col gap-5 p-4 border-2 border-[#2c2d32] rounded-lg duration-400 hover:shadow hover:shadow-[rgba(197,195,195,0.5)];
+    @apply bg-stack-color flex flex-col gap-5 p-4 border-2 border-[#2c2d32] rounded-lg duration-400 hover:shadow hover:shadow-[rgba(197,195,195,0.5)] cursor-pointer;
 
     & div {
       @apply flex items-center gap-3;
