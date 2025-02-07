@@ -6,9 +6,9 @@ const Experience = () => {
     <section>
       <h1>Experience</h1>
 
-      <ul className="flex flex-col lg:flex-row mt-4 gap-6 pr-6">
-        <li className="experience">
-          <div className="flex flex-col gap-5 basis-[50%]">
+      <ul className="flex flex-col lg:flex-row mt-4 gap-4 pr-6 xl:pr-0">
+        <li className="experience basis-[99%]">
+          <div className="flex flex-col gap-5 basis-[50%] pr-4 xl:border-r border-[#51535c]">
             <h2>Work Experience</h2>
 
             <div className="flex flex-col gap-2">
@@ -36,26 +36,24 @@ const Experience = () => {
             </div>
           </div>
 
-          <div className="border border-[#51535c] mr-6"></div>
-
           <div className=" flex flex-col gap-4 basis-[50%]">
             <h2 className="font-bold tracking-widest">Soft Skills</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5">
-              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
-                <GoDotFill size={25} /> Effective Communication
+              <span className="max-w-[90%] flex items-center gap-2 text-sm lg:text-base">
+                <GoDotFill size={20} /> Effective Communication
               </span>
 
-              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
-                <GoDotFill size={25} /> Teamwork
+              <span className="max-w-[90%] flex items-center gap-2 text-sm lg:text-base">
+                <GoDotFill size={20} /> Teamwork
               </span>
 
-              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
-                <GoDotFill size={25} /> Good time management
+              <span className="max-w-[90%] flex items-center gap-2 text-sm lg:text-base">
+                <GoDotFill size={20} /> Good time management
               </span>
 
-              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
-                <GoDotFill size={25} /> Continuous Learning
+              <span className="max-w-[90%] flex items-center gap-2 text-sm lg:text-base">
+                <GoDotFill size={20} /> Continuous Learning
               </span>
             </div>
           </div>
