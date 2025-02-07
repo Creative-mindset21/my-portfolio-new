@@ -63,6 +63,11 @@
     height: auto;
     object-fit: cover;
   }
+
+  button {
+    cursor: pointer;
+    position: relative;
+  }
 }
 
 @layer components {
@@ -125,6 +130,7 @@
     }
   }
 
+  /* ! ===== PROJECT CARD STYLING =====*/
   .projects {
     @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5;
 

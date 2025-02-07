@@ -68,7 +68,7 @@ export const projectsData = [
     category: "Web Application",
     stackUsed: [
       <FaReact size={25} className="fill-blue-500" />,
-      <RiTailwindCssFill size={25} className="fill-blue-400" />,
+      <FaCss3Alt size={25} className="fill-blue-400" />,
     ],
     linkTo: "https://easy-learn-edx-website.vercel.app/",
   },

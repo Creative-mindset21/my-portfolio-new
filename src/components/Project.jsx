@@ -9,26 +9,72 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
 
         <div>
           {/* ! ===== MOBILE PHONES ===== */}
-          <label htmlFor="projectSelect"></label>
+          <label htmlFor="mobileProjectSelect"></label>
           <select
             value={filter}
             onChange={handleFilterChange}
-            id="projectSelect"
+            id="mobileProjectSelect"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 md:hidden dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           >
             <option value="all">All</option>
             <option value="Web Application">Web Applications</option>
-            <option value="Utility Application">Tools</option>
+            <option value="Utility Application">Utility Application</option>
             <option value="UI Design">UI Design</option>
           </select>
+
+          {/* ! ===== TABLETS AND LAPTOPS ===== */}
+          <label htmlFor="tabletProjectSelect"></label>
+          <nav id="tabletProjectSelect" className="hidden md:flex gap-4">
+            <button
+              onClick={handleFilterChange}
+              value="all"
+              className={`${
+                "all" === filter ? "text-cyan-500" : "text-white"
+              } `}
+            >
+              All
+            </button>
+
+            <button
+              onClick={handleFilterChange}
+              value="Web Application"
+              className={`${
+                "Web Application" === filter ? "text-cyan-500" : "text-white"
+              } `}
+            >
+              Web Application
+            </button>
+
+            <button
+              onClick={handleFilterChange}
+              value="Utility Application"
+              className={`${
+                "Utility Application" === filter
+                  ? "text-cyan-500"
+                  : "text-white"
+              } `}
+            >
+              Utility Application
+            </button>
+
+            <button
+              onClick={handleFilterChange}
+              value="UI Design"
+              className={`${
+                "UI Design" === filter ? "text-cyan-500" : "text-white"
+              } `}
+            >
+              UI Design
+            </button>
+          </nav>
         </div>
       </div>
 
-      <div className="projects">
+      <ul className="projects">
         {filteredItems.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
-      </div>
+      </ul>
     </section>
   );
 };

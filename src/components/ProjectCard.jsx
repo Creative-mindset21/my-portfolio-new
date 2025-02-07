@@ -4,7 +4,7 @@ const ProjectCard = ({ project }) => {
   const { img, title, category, stackUsed, linkTo } = project;
 
   return (
-    <section className="projectCard group">
+    <li className="projectCard group">
       <a href={linkTo} target="_blank" className="flex flex-col gap-3">
         <figure>
           <img src={img} alt={title} title={title} className="rounded-t-lg" />
@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
           <div className="flex gap-3 items-center mt-3">{stackUsed}</div>
         </div>
       </a>
-    </section>
+    </li>
   );
 };
 
