@@ -1,4 +1,4 @@
-import myImg from "../assets/my-img.jpg";
+import aboutImg from "../assets/about-img.jpg";
 import Experience from "./Experience";
 import Stack from "./Stack";
 
@@ -26,9 +26,9 @@ const About = () => {
 
         <figure className="navImg w-60 h-60 xl:w-90 xl:h-90 p-4 -order-1 xl:order-1 mx-0 mt-0">
           <img
-            src={myImg}
+            src={aboutImg}
             alt="my image"
-            className="w-full h-[auto] object-top rounded-3xl"
+            className="w-full h-[auto]  rounded-3xl"
           />
         </figure>
       </div>
