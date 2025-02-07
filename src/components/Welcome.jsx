@@ -41,20 +41,22 @@ const Welcome = () => {
     <section className="relative" ref={comp}>
       <div
         id="intro-slider"
-        className="h-screen p-10 justify-center bg-gray-light absolute top-0 left-0 z-10 w-full flex flex-col gap-20 "
+        className="h-screen px-10 py-50 lg:p-10 bg-gray-light absolute top-0 left-0 w-full flex flex-col gap-20"
       >
         <h1
-          className="text-[1.5rem] md:text-7xl xl:text-[6rem] 2xl:text-[10rem] mb-0 "
+          className="text-[2.3rem] md:text-7xl xl:text-[6rem] 2xl:text-[10rem] mb-0 "
           id="title-1"
         >
           Frontend Developer
         </h1>
+
         <h1
           className="text-5xl mb-0 md:text-7xl xl:text-[8rem] 2xl:text-[12rem]"
           id="title-2"
         >
           Designer
         </h1>
+
         <h1
           className="text-5xl mb-0 md:text-7xl xl:text-[8rem] 2xl:text-[12rem]"
           id="title-3"
@@ -65,7 +67,7 @@ const Welcome = () => {
 
       <div
         id="welcome"
-        className="w-full h-screen flex bg-gray-950 justify-center place-items-center"
+        className="w-screen h-screen flex bg-grey-600 justify-center place-items-center"
       >
         <h1
           id="welcomeText"

@@ -73,7 +73,7 @@
 @layer components {
   /* ! ===== CONTAINER WRAPPER STYLING =====*/
   .wrapper {
-    @apply grid grid-cols-1 lg:grid-cols-[20rem_auto] lg:gap-6 lg:mt-10 lg:pl-10 lg:pr-5 w-full;
+    @apply grid grid-cols-1 lg:grid-cols-[20rem_auto] lg:gap-6 lg:mt-10 lg:pl-10 lg:pr-5 w-full z-0;
   }
 
   /* ! ===== NAVIGATION STYLING =====*/
