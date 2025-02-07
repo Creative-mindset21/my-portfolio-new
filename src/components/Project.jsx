@@ -30,7 +30,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
               value="all"
               className={`${
                 "all" === filter ? "text-cyan-500" : "text-white"
-              } `}
+              } duration-500 hover:-translate-y-0.5`}
             >
               All
             </button>
@@ -40,7 +40,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
               value="Web Application"
               className={`${
                 "Web Application" === filter ? "text-cyan-500" : "text-white"
-              } `}
+              } duration-500 hover:-translate-y-0.5`}
             >
               Web Application
             </button>
@@ -52,7 +52,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
                 "Utility Application" === filter
                   ? "text-cyan-500"
                   : "text-white"
-              } `}
+              } duration-500 hover:-translate-y-0.5`}
             >
               Utility Application
             </button>
@@ -62,7 +62,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
               value="UI Design"
               className={`${
                 "UI Design" === filter ? "text-cyan-500" : "text-white"
-              } `}
+              } duration-500 hover:-translate-y-0.5`}
             >
               UI Design
             </button>
