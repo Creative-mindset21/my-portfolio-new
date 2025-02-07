@@ -124,6 +124,18 @@
       @apply text-gradient font-[Gilroy-bold];
     }
   }
+
+  .projects {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5;
+
+    & .projectCard {
+      @apply relative overflow-hidden bg-stack-color rounded-lg shadow shadow-[rgba(197,195,195,0.2)] duration-300 hover:shadow-[rgba(197,195,195,0.7)];
+    }
+
+    & .projectCard img {
+      @apply group-hover:scale-102 duration-300;
+    }
+  }
 }
 
 /* ! ===== TEXT GRADIENT STYLING =====*/
