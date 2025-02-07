@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import ProjectCard from "./ProjectCard";
 import PropTypes from "prop-types";
 
@@ -7,7 +8,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
       <div className="flex items-center justify-between gap-4">
         <h1>Projects</h1>
 
-        <div>
+        <div className="flex gap-10">
           {/* ! ===== MOBILE PHONES ===== */}
           <label htmlFor="mobileProjectSelect"></label>
           <select
@@ -67,6 +68,13 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
               UI Design
             </button>
           </nav>
+
+          <NavLink
+            to="../contact"
+            className="hidden md:flex py-2 px-4 rounded-lg duration-300 bg-gray-light shadow shadow-[rgba(197,195,195,0.3)]"
+          >
+            Hire Me
+          </NavLink>
         </div>
       </div>
 
