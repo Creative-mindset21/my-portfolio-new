@@ -9,7 +9,7 @@ import curriculumVitae from "../assets/My Curriculum Vitae.pdf";
 const Nav = () => {
   return (
     <nav className="navContainer">
-      <div>
+      <div className="flex lg:flex-col items-center gap-4">
         <a className="navImg" href="/">
           <img
             src={myImg}
@@ -17,11 +17,12 @@ const Nav = () => {
             className="w-8 h-8 lg:w-35 lg:h-35 object-top rounded-full"
           />
         </a>
-
-        <p className="hidden lg:block text-2xl tracking-wide">Isaac Awotoye</p>
-        <p className="hidden lg:block text-xl tracking-wider text-grey-text font-semibold">
-          Frontend Developer
-        </p>
+        <div>
+          <p className=" text-md md:text-2xl tracking-wide">Isaac Awotoye</p>
+          <p className="hidden lg:block text-xl tracking-wider text-grey-text font-semibold">
+            Frontend Developer
+          </p>
+        </div>
       </div>
 
       <div className="hidden lg:block border-b-2 border-gray-light h-1 w-full"></div>

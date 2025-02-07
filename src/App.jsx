@@ -5,6 +5,7 @@ import Project from "./components/Project";
 import Contact from "./components/Contact";
 import { useState } from "react";
 import { projectsData } from "./data/data";
+import Welcome from "./components/Welcome";
 
 function App() {
   const [filter, setFilter] = useState("all");
@@ -21,8 +22,9 @@ function App() {
       : projectsData.filter((item) => item.category === filter);
 
   return (
-    <div className="wrapper">
-      <BrowserRouter>
+    <BrowserRouter>
+      <Welcome />
+      <div className="wrapper">
         <Nav />
         <Routes>
           <Route path="/" element={<About />} />
@@ -38,8 +40,8 @@ function App() {
           />
           <Route path="contact" element={<Contact />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 

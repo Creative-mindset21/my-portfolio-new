@@ -78,11 +78,11 @@
 
   /* ! ===== NAVIGATION STYLING =====*/
   .navContainer {
-    @apply flex lg:flex-col px-5 py-7 lg:p-0 lg:gap-10 text-center bg-grey-600 items-center lg:rounded-lg h-[7vh] justify-between lg:justify-start lg:h-[50rem] border-gray-light border-b-2 lg:border-0 fixed top-0 left-0 right-0 lg:relative shadow shadow-[rgba(197,195,195,0.4)];
+    @apply flex lg:flex-col px-5 py-7 lg:p-0 lg:gap-10 text-center bg-grey-600 items-center lg:rounded-lg h-[10vh] justify-between lg:justify-start lg:h-[50rem] border-gray-light border-b-2 lg:border-0 fixed top-0 left-0 right-0 lg:relative shadow shadow-[rgba(197,195,195,0.4)];
   }
 
   .navImg {
-    @apply bg-gray-light w-full mx-auto flex justify-center p-1 lg:p-6 rounded-2xl shadow shadow-[rgba(197,195,195,0.2)] mt-5 lg:mt-5 mb-5;
+    @apply bg-gray-light  mx-auto flex justify-center p-1 lg:p-6 rounded-2xl shadow shadow-[rgba(197,195,195,0.2)] mt-5 lg:mt-5 mb-5;
   }
 
   .navlinks {
