@@ -18,7 +18,7 @@ const Nav = () => {
           />
         </a>
         <div>
-          <p className=" text-md md:text-2xl tracking-wide">Isaac Awotoye</p>
+          <p className=" text-sm  md:text-2xl tracking-wide">Isaac Awotoye</p>
           <p className="hidden lg:block text-xl tracking-wider text-grey-text font-semibold">
             Frontend Developer
           </p>

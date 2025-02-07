@@ -44,7 +44,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-grey-600 md:rounded-lg">
+    <section className="bg-grey-600 md:rounded-lg pt-22 lg:pt-0">
       <div className="py-4 px-5">
         <h1 className="mb-7">Contact</h1>
 
