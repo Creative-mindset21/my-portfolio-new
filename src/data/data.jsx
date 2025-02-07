@@ -39,3 +39,5 @@ export const stackData = [
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, eum!",
   },
 ];
+
+export const projectsData = [{}];

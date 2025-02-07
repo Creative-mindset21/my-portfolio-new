@@ -12,42 +12,42 @@ const Nav = () => {
           <img
             src={myImg}
             alt="My image"
-            className="w-8 h-8 md:w-35 md:h-35 object-top rounded-full"
+            className="w-8 h-8 lg:w-35 lg:h-35 object-top rounded-full"
           />
         </figure>
 
-        <p className="hidden md:block text-2xl tracking-wide">Isaac Awotoye</p>
-        <p className="hidden md:block text-xl tracking-wider text-grey-text font-semibold">
+        <p className="hidden lg:block text-2xl tracking-wide">Isaac Awotoye</p>
+        <p className="hidden lg:block text-xl tracking-wider text-grey-text font-semibold">
           Frontend Developer
         </p>
       </div>
 
-      <ul className="flex md:flex-col items-center gap-7 md:mb-10 md:items-start md:self-start md:pl-15 md:w-48">
+      <ul className="flex lg:flex-col items-center gap-7 lg:mb-10 lg:items-start lg:self-start lg:pl-15 lg:w-48">
         <li>
           <NavLink to="/" className="navlinks" title="About Me">
             <FaUser size={15} />
-            <span className="hidden md:block">About Me</span>
+            <span className="hidden lg:block">About Me</span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="resume" className="navlinks" title="Resume">
             <FaFileDownload size={15} />
-            <span className="hidden md:block">Resume</span>
+            <span className="hidden lg:block">Resume</span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="projects" className="navlinks" title="Projects">
             <FaFolderClosed size={15} />
-            <span className="hidden md:block">Projects</span>
+            <span className="hidden lg:block">Projects</span>
           </NavLink>
         </li>
 
         <li>
           <NavLink to="contact" className="navlinks" title="Contact">
             <TbMessageCircleHeart size={15} />
-            <span className="hidden md:block">Contact</span>
+            <span className="hidden lg:block">Contact</span>
           </NavLink>
         </li>
       </ul>

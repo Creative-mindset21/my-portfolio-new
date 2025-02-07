@@ -6,7 +6,7 @@ const Experience = () => {
     <section>
       <h1>Experience</h1>
 
-      <ul className="flex flex-col md:flex-row  mt-4 gap-6 pr-6">
+      <ul className="flex flex-col lg:flex-row mt-4 gap-6 pr-6">
         <li className="experience">
           <div className="flex flex-col gap-5 basis-[50%]">
             <h2>Work Experience</h2>
@@ -16,7 +16,7 @@ const Experience = () => {
 
               <small>JAN 2025 - present</small>
 
-              <span className="max-w-[25rem]">
+              <span className="max-w-[95%]">
                 Developed and maintained an online tuition website using modern
                 technologies such as React for the frontend and PostgreSQL for
                 backend
@@ -38,37 +38,37 @@ const Experience = () => {
 
           <div className="border border-[#51535c] mr-6"></div>
 
-          <div className=" flex flex-col  gap-7 basis-[50%]">
+          <div className=" flex flex-col gap-4 basis-[50%]">
             <h2 className="font-bold tracking-widest">Soft Skills</h2>
 
-            <div className="flex flex-col gap-5">
-              <span className="max-w-[90%] md:max-w-full flex items-center gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-5">
+              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
                 <GoDotFill size={25} /> Effective Communication
               </span>
 
-              <span className="max-w-[90%] flex items-center gap-2">
+              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
                 <GoDotFill size={25} /> Teamwork
               </span>
 
-              <span className="max-w-[90%] flex items-center gap-2">
+              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
                 <GoDotFill size={25} /> Good time management
               </span>
 
-              <span className="max-w-[90%] flex items-center gap-2">
+              <span className="max-w-[90%] flex items-center gap-2 text-sm md:text-base">
                 <GoDotFill size={25} /> Continuous Learning
               </span>
             </div>
           </div>
         </li>
 
-        <li className="md:max-w-[30%] 2xl:max-w-[40%] experience">
+        <li className="xl:max-w-[30%] 2xl:max-w-[40%] experience">
           <div className="">
             <h2 className="text-xl pb-4">Education</h2>
 
             <div className="flex flex-col gap-2">
               <h3>Bedford College, Bedford</h3>
               <small> September 2023 - present</small>
-              <p className="leading-relaxed sm:text-sm 2xl:text-base">
+              <p className="leading-relaxed text-sm md:text-base">
                 I am currently pursuing my Level 3 BTEC in Computing, focusing
                 on Software Design and Development, Computer Games Development,
                 Website Development, IT System Security, and many more.
