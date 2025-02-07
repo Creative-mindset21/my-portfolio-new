@@ -15,35 +15,35 @@ export const stackData = [
     id: 1,
     logo: <IoLogoJavascript size={25} className="fill-amber-400" />,
     title: "JavaScript",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, eum!",
+    desc: "Interactive and provide functionality to web applications",
   },
 
   {
     id: 2,
     logo: <FaReact size={25} className="fill-blue-500" />,
     title: "React",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, eum!",
+    desc: "Build user interfaces and create reuseable UI components",
   },
 
   {
     id: 3,
     logo: <RiTailwindCssFill size={25} className="fill-blue-400" />,
     title: "Tailwind CSS",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, eum!",
+    desc: "Rapid UI development and create responsive designs using utility classes",
   },
 
   {
     id: 4,
     logo: <SiTypescript size={25} className="fill-blue-500" />,
     title: "TypeScript",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, eum!",
+    desc: "Improves code quality and maintainbility by adding static typing",
   },
 
   {
     id: 5,
     logo: <FaGithubSquare size={25} />,
     title: "Git and Github",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, eum!",
+    desc: "A version control system and a cloud based platform for collaboration and project management",
   },
 ];
 

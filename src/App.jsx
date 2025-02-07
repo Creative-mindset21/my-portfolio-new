@@ -9,10 +9,12 @@ import { projectsData } from "./data/data";
 function App() {
   const [filter, setFilter] = useState("all");
 
+  // ! ===== HANDLE FILTER CHANGE
   const handleFilterChange = (e) => {
     setFilter(e.target.value);
   };
 
+  // ! ===== FILTERED ARRAY
   const filteredItems =
     filter === "all"
       ? projectsData
