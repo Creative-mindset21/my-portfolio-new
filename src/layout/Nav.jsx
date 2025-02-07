@@ -10,13 +10,13 @@ const Nav = () => {
   return (
     <nav className="navContainer">
       <div>
-        <figure className="navImg">
+        <a className="navImg" href="/">
           <img
             src={myImg}
             alt="My image"
             className="w-8 h-8 lg:w-35 lg:h-35 object-top rounded-full"
           />
-        </figure>
+        </a>
 
         <p className="hidden lg:block text-2xl tracking-wide">Isaac Awotoye</p>
         <p className="hidden lg:block text-xl tracking-wider text-grey-text font-semibold">
