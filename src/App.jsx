@@ -23,7 +23,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Welcome />
+      {/* <Welcome /> */}
       <div className="wrapper">
         <Nav />
         <Routes>

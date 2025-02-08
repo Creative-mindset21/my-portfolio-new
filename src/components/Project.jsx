@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const Project = ({ filteredItems, handleFilterChange, filter }) => {
   return (
-    <section className="bg-grey-600 lg:rounded-lg lg:p-6 p-4 pt-25">
+    <section className="bg-grey-600 lg:rounded-lg lg:p-6 p-4 pt-25 pb-20">
       <div className="flex items-center justify-between gap-4">
         <h1>Projects</h1>
 

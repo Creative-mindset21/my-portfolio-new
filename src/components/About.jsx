@@ -9,18 +9,10 @@ const About = () => {
         <div className="xl:max-w-[50%] max-w-[90%]">
           <h1>About me</h1>
 
-          <p className="mb-5 xl:max-w-[90%] text-white-500 text-lg">
-            Frontend developer based in Bedford, United Kingdom, dedicated to
-            creating{" "}
-            <span className="text-grey-text">
-              responsive and user-friendly web applications
-            </span>{" "}
-            with a strong focus on performance and design.
-          </p>
-
-          <p className="xl:max-w-[90%] text-white-500 text-xl">
-            I thrive on collaboration and continuously seek to improve my skills
-            and stay updated with the latest technologies.
+          <p className="mb-5 xl:max-w-[90%] text-white-500 text-xl leading-relaxed">
+            Frontend developer based in Bedford, United Kingdom, I thrive on
+            collaboration and continuously seek to improve my skills and stay
+            updated with the latest technologies.
           </p>
         </div>
 

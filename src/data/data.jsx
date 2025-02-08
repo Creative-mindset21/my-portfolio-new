@@ -59,6 +59,7 @@ export const projectsData = [
       <RiTailwindCssFill size={25} className="fill-blue-400" />,
     ],
     linkTo: "https://my-portfolio-alpha-nine-34.vercel.app/",
+    githubLink: "https://github.com/Creative-mindset21/my-portfolio-new",
   },
 
   {
@@ -71,6 +72,7 @@ export const projectsData = [
       <FaCss3Alt size={25} className="fill-blue-400" />,
     ],
     linkTo: "https://easy-learn-edx-website.vercel.app/",
+    githubLink: "https://github.com/Creative-mindset21/easy-learn-edx-website",
   },
 
   {
@@ -84,6 +86,8 @@ export const projectsData = [
       <SiTypescript size={25} className="fill-blue-500" />,
     ],
     linkTo: "https://password-generator-react-js-dun.vercel.app/",
+    githubLink:
+      "https://github.com/Creative-mindset21/password-generator-react.js",
   },
 
   {
@@ -97,5 +101,7 @@ export const projectsData = [
       <IoLogoJavascript size={25} className="fill-amber-400" />,
     ],
     linkTo: "https://crypto-investment-dashboard.vercel.app/",
+    githubLink:
+      "https://github.com/Creative-mindset21/Crypto-Investment-Dashboard",
   },
 ];
