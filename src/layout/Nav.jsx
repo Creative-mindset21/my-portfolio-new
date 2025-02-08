@@ -119,7 +119,7 @@ const Nav = () => {
         </ul>
       </nav>
 
-      <ul className="lg:hidden fixed bottom-0 left-0 right-0 flex items-center justify-center gap-6 md:gap-15 bg-gray-light py-3 rounded-t-2xl z-10">
+      <ul className="lg:hidden fixed bottom-0 left-0 right-0 flex items-center justify-center gap-6 md:gap-15 bg-gray-light py-4 rounded-t-2xl z-10">
         <li>
           <NavLink to="/" className="navlinks" title="About Me">
             <FaUser size={15} className="hidden" />
