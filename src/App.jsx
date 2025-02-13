@@ -5,7 +5,7 @@ import Project from "./components/Project";
 import Contact from "./components/Contact";
 import { useState } from "react";
 import { projectsData } from "./data/data";
-import Welcome from "./components/Welcome";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [filter, setFilter] = useState("all");
