@@ -1,5 +1,8 @@
 import { FaCss3Alt, FaReact } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import { IoIosLink } from "react-icons/io";
+import { MdPlayArrow } from "react-icons/md";
+import { NavLink } from "react-router";
 
 const Experience = () => {
   return (
@@ -9,21 +12,40 @@ const Experience = () => {
       <ul className="flex flex-col lg:flex-row mt-4 gap-4 pr-6 xl:pr-0">
         <li className="experience basis-[99%]">
           <div className="flex flex-col gap-5 basis-[50%] pr-4 xl:border-r border-[#51535c]">
-            <h2>Work Experience</h2>
+            <h2>Recent Work Experience</h2>
 
             <div className="flex flex-col gap-2">
-              <h3>Easy-Learn Frontend Developer</h3>
+              <h3>Learn With Ease</h3>
 
-              <small>JAN 2025 - present</small>
+              <small>March 2025 - June 2025</small>
 
               <span className="max-w-[95%]">
-                Developed and maintained an online tuition website using modern
-                technologies such as React for the frontend and PostgreSQL for
-                backend
+                I developed and maintained an online tuition website utilising
+                modern technologies, including NextJS for the frontend and
+                MongoDB for the backend.
               </span>
+
+              <div className="flex gap-3 mt-2">
+                <a
+                  href="https://www.learnwithease.org/"
+                  target="_blank"
+                  className="flex gap-2 items-center bg-gray-light p-2.5 rounded-md duration-500 hover:shadow hover:shadow-[rgba(197,195,195,0.3)] self-start"
+                >
+                  <IoIosLink size={20} />
+                  <span className="text-sm">Live Demo</span>
+                </a>
+
+                <NavLink
+                  to="projects"
+                  className="flex gap-2 items-center bg-gray-light py-2.5 px-3 rounded-md duration-500 hover:shadow hover:shadow-[rgba(197,195,195,0.3)] self-start"
+                >
+                  <MdPlayArrow size={20} />
+                  <span className="text-sm">View All Projects</span>
+                </NavLink>
+              </div>
             </div>
 
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <div className="experienceStack">
                 <FaReact size={20} className="fill-blue-500" />
                 <span>React</span>
@@ -33,7 +55,7 @@ const Experience = () => {
                 <FaCss3Alt size={20} className="fill-blue-500" />
                 <span>CSS</span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className=" flex flex-col gap-4 basis-[50%]">
@@ -65,11 +87,15 @@ const Experience = () => {
 
             <div className="flex flex-col gap-2">
               <h3>Bedford College, Bedford</h3>
-              <small> September 2023 - present</small>
+              <small> September 2023 - June 2025</small>
               <p className="leading-relaxed text-sm md:text-base">
-                I am currently pursuing my Level 3 BTEC in Computing, focusing
-                on Software Design and Development, Computer Games Development,
-                Website Development, IT System Security, and many more.
+                A Level 3 BTEC in Advanced Computing, where I focused on various
+                areas like{" "}
+                <ul>
+                  <li>Software Design and Development</li>
+                  <li>Computer Games Development</li>
+                  <li>Website Development & Cyber Security</li>
+                </ul>
               </p>
             </div>
           </div>

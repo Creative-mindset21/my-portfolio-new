@@ -1,4 +1,10 @@
-import { FaCss3Alt, FaGithubSquare, FaHtml5, FaReact } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaGithubSquare,
+  FaHtml5,
+  FaReact,
+  FaPython,
+} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
@@ -45,6 +51,13 @@ export const stackData = [
     title: "Git and Github",
     desc: "A version control system and a cloud based platform for collaboration and project management",
   },
+
+  {
+    id: 6,
+    logo: <FaPython size={25} className="fill-yellow-500" />,
+    title: "Python",
+    desc: "A versatile and powerful programming language known for its simplicity and readability.",
+  },
 ];
 
 // ! ==== PROJECTS DATA =====
@@ -65,13 +78,13 @@ export const projectsData = [
   {
     id: 2,
     img: website2,
-    title: "Easy Learn Website",
+    title: "Learn With Ease Website",
     category: "Web Application",
     stackUsed: [
       <FaReact size={25} className="fill-blue-500" />,
       <FaCss3Alt size={25} className="fill-blue-400" />,
     ],
-    linkTo: "https://easy-learn-edx-website.vercel.app/",
+    linkTo: "https://learnwithease.org",
     githubLink: "https://github.com/Creative-mindset21/easy-learn-edx-website",
   },
 
@@ -90,18 +103,18 @@ export const projectsData = [
       "https://github.com/Creative-mindset21/password-generator-react.js",
   },
 
-  {
-    id: 4,
-    img: website4,
-    title: "Crypto Admin Dashboard",
-    category: "UI Design",
-    stackUsed: [
-      <FaHtml5 size={25} className="fill-orange-400" />,
-      <FaCss3Alt size={25} className="fill-blue-400" />,
-      <IoLogoJavascript size={25} className="fill-amber-400" />,
-    ],
-    linkTo: "https://crypto-investment-dashboard.vercel.app/",
-    githubLink:
-      "https://github.com/Creative-mindset21/Crypto-Investment-Dashboard",
-  },
+  // {
+  //   id: 4,
+  //   img: website4,
+  //   title: "Crypto Admin Dashboard",
+  //   category: "UI Design",
+  //   stackUsed: [
+  //     <FaHtml5 size={25} className="fill-orange-400" />,
+  //     <FaCss3Alt size={25} className="fill-blue-400" />,
+  //     <IoLogoJavascript size={25} className="fill-amber-400" />,
+  //   ],
+  //   linkTo: "https://crypto-investment-dashboard.vercel.app/",
+  //   githubLink:
+  //     "https://github.com/Creative-mindset21/Crypto-Investment-Dashboard",
+  // },
 ];

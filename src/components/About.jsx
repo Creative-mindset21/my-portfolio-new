@@ -10,9 +10,10 @@ const About = () => {
           <h1>About me</h1>
 
           <p className="mb-5 xl:max-w-[90%] text-white-500 text-xl leading-relaxed">
-            Frontend developer based in Bedford, United Kingdom, I thrive on
-            collaboration and continuously seek to improve my skills and stay
-            updated with the latest technologies.
+            A Front End Developer focused on creating user-friendly and
+            functional web applications. A 2025 WorldSkills UK Finalist who
+            combine design and performance to deliver impactful digital
+            solutions.
           </p>
         </div>
 

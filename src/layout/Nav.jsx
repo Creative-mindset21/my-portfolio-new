@@ -9,7 +9,7 @@ import { NavLink } from "react-router";
 import { FaFolderClosed } from "react-icons/fa6";
 import { TbMessageCircleHeart } from "react-icons/tb";
 import { IoMdMail } from "react-icons/io";
-import curriculumVitae from "../assets/My Curriculum Vitae.pdf";
+import curriculumVitae from "../assets/My Curriculum Vitae (2).pdf";
 
 const Nav = () => {
   return (
@@ -92,14 +92,14 @@ const Nav = () => {
         <ul className="hidden lg:flex flex-col lg:items-start lg:text-left gap-5">
           <li className="flex gap-3 items-center">
             <a
-              href="mailto:tobiawotoye03@gmail.com"
+              href="mailto:isaacawotoye019@gmail.com"
               className="bg-gray-light p-2 rounded-lg shadow shadow-[rgba(197,195,195,0.3)]"
             >
               <IoMdMail size={25} />
             </a>
             <div>
               <small className="text-sm">Email</small>
-              <p className="text-md">tobiawotoye03@gmail.com</p>
+              <p className="text-md">isaacawotoye019@gmail.com</p>
             </div>
           </li>
 
