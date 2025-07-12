@@ -32,7 +32,7 @@ const Experience = () => {
                   className="flex gap-2 items-center bg-gray-light p-2.5 rounded-md duration-500 hover:shadow hover:shadow-[rgba(197,195,195,0.3)] self-start"
                 >
                   <IoIosLink size={20} />
-                  <span className="text-sm">Live Demo</span>
+                  <span className="text-sm">Live</span>
                 </a>
 
                 <NavLink
@@ -40,7 +40,7 @@ const Experience = () => {
                   className="flex gap-2 items-center bg-gray-light py-2.5 px-3 rounded-md duration-500 hover:shadow hover:shadow-[rgba(197,195,195,0.3)] self-start"
                 >
                   <MdPlayArrow size={20} />
-                  <span className="text-sm">View All Projects</span>
+                  <span className="text-sm">All Projects</span>
                 </NavLink>
               </div>
             </div>
