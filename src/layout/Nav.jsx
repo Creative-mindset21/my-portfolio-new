@@ -9,7 +9,6 @@ import { NavLink } from "react-router";
 import { FaFolderClosed } from "react-icons/fa6";
 import { TbMessageCircleHeart } from "react-icons/tb";
 import { IoMdMail } from "react-icons/io";
-import curriculumVitae from "../assets/My Curriculum Vitae.pdf";
 
 const Nav = () => {
   return (
@@ -60,7 +59,7 @@ const Nav = () => {
             </NavLink>
           </li>
 
-          <li>
+          {/* <li>
             <a
               href={curriculumVitae}
               target="_blank"
@@ -70,7 +69,7 @@ const Nav = () => {
               <FaFileDownload size={15} />
               <span className="hidden lg:block">Resume</span>
             </a>
-          </li>
+          </li> */}
 
           <li>
             <NavLink to="projects" className="navlinks" title="Projects">
@@ -127,7 +126,7 @@ const Nav = () => {
           </NavLink>
         </li>
 
-        <li>
+        {/* <li>
           <a
             href={curriculumVitae}
             target="_blank"
@@ -137,7 +136,7 @@ const Nav = () => {
             <FaFileDownload size={15} className="hidden" />
             <span className="text-sm">Resume</span>
           </a>
-        </li>
+        </li> */}
 
         <li>
           <NavLink to="projects" className="navlinks" title="Projects">
