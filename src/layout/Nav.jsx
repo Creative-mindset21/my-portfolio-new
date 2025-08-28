@@ -9,7 +9,7 @@ import { NavLink } from "react-router";
 import { FaFolderClosed } from "react-icons/fa6";
 import { TbMessageCircleHeart } from "react-icons/tb";
 import { IoMdMail } from "react-icons/io";
-import curriculumVitae from "../assets/My CVV.pdf";
+import curriculumVitae from "../assets/my-cv.pdf";
 
 const Nav = () => {
   return (

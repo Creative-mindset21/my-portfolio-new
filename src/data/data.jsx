@@ -59,19 +59,32 @@ export const stackData = [
 export const projectsData = [
   {
     id: 1,
-    img: website1,
-    title: "Personal Portfolio",
+    img: website6,
+    title: "DBODY NG.",
     category: "Web Application",
     stackUsed: [
       <FaReact size={25} className="fill-blue-500" />,
       <RiTailwindCssFill size={25} className="fill-blue-400" />,
     ],
-    linkTo: "https://my-portfolio-alpha-nine-34.vercel.app/",
-    githubLink: "https://github.com/Creative-mindset21/my-portfolio-new",
+    linkTo: "https://dbodyng.shop/",
+    githubLink: "#",
   },
 
   {
     id: 2,
+    img: website5,
+    title: "Shop Station",
+    category: "Web Application",
+    stackUsed: [
+      <FaReact size={25} className="fill-blue-500" />,
+      <RiTailwindCssFill size={25} className="fill-blue-400" />,
+    ],
+    linkTo: "https://shopstation.ng/",
+    githubLink: "#",
+  },
+
+  {
+    id: 3,
     img: website2,
     title: "Learn With Ease Website",
     category: "Web Application",
@@ -84,7 +97,7 @@ export const projectsData = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: website3,
     title: "Password Generator",
     category: "Utility Application",
@@ -99,28 +112,15 @@ export const projectsData = [
   },
 
   {
-    id: 4,
-    img: website5,
-    title: "Shop Station",
-    category: "Web Application",
-    stackUsed: [
-      <FaReact size={25} className="fill-blue-500" />,
-      <RiTailwindCssFill size={25} className="fill-blue-400" />,
-    ],
-    linkTo: "https://shopstation.ng/",
-    githubLink: "#",
-  },
-
-  {
     id: 5,
-    img: website6,
-    title: "DBODY NG.",
+    img: website1,
+    title: "Personal Portfolio",
     category: "Web Application",
     stackUsed: [
       <FaReact size={25} className="fill-blue-500" />,
       <RiTailwindCssFill size={25} className="fill-blue-400" />,
     ],
-    linkTo: "https://dbodyng.shop/",
-    githubLink: "#",
+    linkTo: "https://my-portfolio-alpha-nine-34.vercel.app/",
+    githubLink: "https://github.com/Creative-mindset21/my-portfolio-new",
   },
 ];
