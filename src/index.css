@@ -90,7 +90,7 @@
   }
 
   .aboutContainer {
-    @apply bg-grey-600 pt-25 pb-20 pl-6 xl:p-10 xl:px-8 2xl:px-36 xl:rounded-lg flex flex-col gap-6;
+    @apply bg-grey-600 pt-25 pb-20 pl-6 xl:p-10  xl:px-8 2xl:px-36 xl:rounded-lg flex flex-col gap-6;
   }
 
   .card {

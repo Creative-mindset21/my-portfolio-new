@@ -1,10 +1,4 @@
-import {
-  FaCss3Alt,
-  FaGithubSquare,
-  FaHtml5,
-  FaReact,
-  FaPython,
-} from "react-icons/fa";
+import { FaCss3Alt, FaGithubSquare, FaReact, FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
@@ -13,7 +7,8 @@ import { SiTypescript } from "react-icons/si";
 import website1 from "../assets/website-1.png";
 import website2 from "../assets/website-2.png";
 import website3 from "../assets/website-3.png";
-import website4 from "../assets/website-4.png";
+import website5 from "../assets/website-5.png";
+import website6 from "../assets/website-6.png";
 
 // ! ==== STACK DATA =====
 export const stackData = [
@@ -103,18 +98,29 @@ export const projectsData = [
       "https://github.com/Creative-mindset21/password-generator-react.js",
   },
 
-  // {
-  //   id: 4,
-  //   img: website4,
-  //   title: "Crypto Admin Dashboard",
-  //   category: "UI Design",
-  //   stackUsed: [
-  //     <FaHtml5 size={25} className="fill-orange-400" />,
-  //     <FaCss3Alt size={25} className="fill-blue-400" />,
-  //     <IoLogoJavascript size={25} className="fill-amber-400" />,
-  //   ],
-  //   linkTo: "https://crypto-investment-dashboard.vercel.app/",
-  //   githubLink:
-  //     "https://github.com/Creative-mindset21/Crypto-Investment-Dashboard",
-  // },
+  {
+    id: 4,
+    img: website5,
+    title: "Shop Station",
+    category: "Web Application",
+    stackUsed: [
+      <FaReact size={25} className="fill-blue-500" />,
+      <RiTailwindCssFill size={25} className="fill-blue-400" />,
+    ],
+    linkTo: "https://shopstation.ng/",
+    githubLink: "#",
+  },
+
+  {
+    id: 5,
+    img: website6,
+    title: "DBODY NG.",
+    category: "Web Application",
+    stackUsed: [
+      <FaReact size={25} className="fill-blue-500" />,
+      <RiTailwindCssFill size={25} className="fill-blue-400" />,
+    ],
+    linkTo: "https://dbodyng.shop/",
+    githubLink: "#",
+  },
 ];

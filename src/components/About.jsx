@@ -17,13 +17,13 @@ const About = () => {
           </p>
         </div>
 
-        <figure className="navImg w-60 h-60 xl:w-90 xl:h-90 p-4 -order-1 xl:order-1 mx-0 mt-0">
+        {/* <figure className="navImg w-60 h-60 xl:w-90 hidden xl:inline-block xl:h-90 p-4 -order-1 xl:order-1 mx-0 mt-0">
           <img
             src={aboutImg}
             alt="my image"
             className="w-full h-[auto]  rounded-3xl"
           />
-        </figure>
+        </figure> */}
       </div>
 
       <Stack />
