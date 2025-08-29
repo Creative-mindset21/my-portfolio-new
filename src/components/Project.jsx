@@ -20,7 +20,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
             <option value="all">All</option>
             <option value="Web Application">Web Applications</option>
             <option value="Utility Application">Utility Application</option>
-            <option value="UI Design">UI Design</option>
+            {/* <option value="UI Design">UI Design</option> */}
           </select>
 
           {/* ! ===== TABLETS AND LAPTOPS ===== */}
@@ -58,7 +58,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
               Utility Application
             </button>
 
-            <button
+            {/* <button
               onClick={handleFilterChange}
               value="UI Design"
               className={`${
@@ -66,7 +66,7 @@ const Project = ({ filteredItems, handleFilterChange, filter }) => {
               } duration-500 hover:-translate-y-0.5`}
             >
               UI Design
-            </button>
+            </button> */}
           </nav>
 
           <NavLink

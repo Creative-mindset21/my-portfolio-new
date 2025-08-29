@@ -9,6 +9,7 @@ import website2 from "../assets/website-2.png";
 import website3 from "../assets/website-3.png";
 import website5 from "../assets/website-5.png";
 import website6 from "../assets/website-6.png";
+import website7 from "../assets/website-7.png";
 
 // ! ==== STACK DATA =====
 export const stackData = [
@@ -85,6 +86,19 @@ export const projectsData = [
 
   {
     id: 3,
+    img: website7,
+    title: "Bobby Mediah",
+    category: "Web Application",
+    stackUsed: [
+      <FaReact size={25} className="fill-blue-500" />,
+      <FaCss3Alt size={25} className="fill-blue-400" />,
+    ],
+    linkTo: "https://bobbymediah.com/",
+    githubLink: "#",
+  },
+
+  {
+    id: 4,
     img: website2,
     title: "Learn With Ease Website",
     category: "Web Application",
@@ -97,7 +111,7 @@ export const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: website3,
     title: "Password Generator",
     category: "Utility Application",
@@ -112,7 +126,7 @@ export const projectsData = [
   },
 
   {
-    id: 5,
+    id: 6,
     img: website1,
     title: "Personal Portfolio",
     category: "Web Application",
