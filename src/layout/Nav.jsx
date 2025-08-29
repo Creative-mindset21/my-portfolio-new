@@ -62,7 +62,6 @@ const Nav = () => {
           <li>
             <a
               href="/my-cvv.pdf"
-              target="_blank"
               className="navlinks"
               title="Resume"
               rel="noopener noreferrer"
