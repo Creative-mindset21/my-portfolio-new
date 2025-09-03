@@ -1,7 +1,13 @@
-import { FaCss3Alt, FaGithubSquare, FaReact, FaPython } from "react-icons/fa";
+import {
+  FaCss3Alt,
+  FaGithubSquare,
+  FaReact,
+  FaPython,
+  FaBootstrap,
+} from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiTypescript } from "react-icons/si";
 
 // ! ===== IMPORT WEBSITE IMAGES =====
 import website1 from "../assets/website-1.png";
@@ -53,6 +59,20 @@ export const stackData = [
     logo: <FaPython size={25} className="fill-yellow-500" />,
     title: "Python",
     desc: "A versatile and powerful programming language known for its simplicity and readability.",
+  },
+
+  {
+    id: 5,
+    logo: <SiNextdotjs />,
+    title: "Next JS",
+    desc: "A powerful framework used to build server-rendered and statically generated web applications with ease.",
+  },
+
+  {
+    id: 6,
+    logo: <FaBootstrap size={25} className="fill-blue-500" />,
+    title: "Bootstrap",
+    desc: "A popular front-end framework for building responsive and mobile-first websites quickly",
   },
 ];
 

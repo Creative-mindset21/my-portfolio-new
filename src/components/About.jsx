@@ -1,4 +1,3 @@
-import aboutImg from "../assets/about-img.jpg";
 import Experience from "./Experience";
 import Stack from "./Stack";
 
